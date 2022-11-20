@@ -20,7 +20,7 @@ public class ProyectoFuturo {
         return numModulos;
     }
 
-    static String veredicto(String numModulos, String valorHoras) {
+    private static String veredicto(String numModulos, String valorHoras) {
         if (numModulos.equals(valorHoras)) {
             System.out.print("Bien, pero una hora de estudio para cada módulo puede ser insuficiente.");
         }else if (Integer.parseInt(numModulos) > Integer.parseInt(valorHoras)) {
